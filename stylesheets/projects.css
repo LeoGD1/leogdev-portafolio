@@ -1,0 +1,131 @@
+.projects {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    margin-bottom: 6rem;
+    overflow: hidden;
+}
+
+.projects__container-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.projects__icon {
+    font-size: 1.8rem;
+    display: block;
+}
+
+
+.projects__title {
+    font-size: 2rem;
+    display: block;
+}
+
+.projects__container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 60px;
+}
+
+.projects__project, .projects__information {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__container-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 10px;
+}
+
+.projects__point {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: var(--yellow-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.projects__name {
+    font-size: 1.3rem;
+}
+
+.projects__p {
+    font-size: 1rem;
+    opacity: .9;
+    margin-bottom: 10px;
+}
+
+.projects__technologies {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.projects__links {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.projects__link {
+    height: 40px;
+    padding: 0 10px;
+    background-color: var(--purple-dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    color: var(--white-color);
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+    -webkit-transition: background-color 200ms ease-in-out;
+    -moz-transition: background-color 200ms ease-in-out;
+    -ms-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+}
+
+.projects__link:hover {
+    background-color: var(--purple-color);
+}
+
+.projects__icon {
+    font-size: 1rem;
+}
+
+.projects__icon-name {
+    font-size: .8rem;
+}
+
+.projects__container-img {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.projects__img {
+    width: 100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}

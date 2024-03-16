@@ -1,0 +1,242 @@
+:root {
+  --grey-color: #0f010f;
+  --footer-color: #0c000c;
+  --purple-dark-color: #403541;
+  --purple-color: #8e43ed;
+  --yellow-color: #f0ec8b;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--white-color);
+  font-family: "Onest", sans-serif;
+  background-color: var(--grey-color);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(ellipse 80% 80% at 50% -20%,rgba(120,119,198,0.3),rgba(255,255,255,0));
+}
+
+
+.span__color {
+  color: var(--yellow-color);
+  font-weight: 600;
+}
+/* NAVIGATION BAR */
+
+.navigation {
+  width: 100%;
+  max-width: 700px;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.navigation__menu {
+  width: 10px;
+  height: 30px;
+  position: relative;
+  z-index: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navigation__icon {
+  font-size: 1.2rem;
+}
+
+.navigation__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 700;
+  background-color: var(--footer-color);
+  clip-path: circle(0.0% at 0 0);
+
+}
+
+.navigation__ul.active {
+  clip-path: circle(140.9% at 0 0);
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+
+.navigation__a {
+  color: var(--white-color);
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+}
+
+.navigation__a:hover {
+  color: var(--yellow-color);
+}
+
+/* MAIN SECTION */
+
+.main {
+  width: 100%;
+  max-width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 6rem;
+}
+
+.main__img {
+  width: 70px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  margin-bottom: 5px;
+}
+
+.main__title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.main__p {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.main__social-media {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main__media {
+  height: 40px;
+  padding: 0 10px;
+  background-color: var(--purple-dark-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  color: var(--white-color);
+  text-decoration: none;
+  transition: background-color 200ms ease-in-out;
+  -webkit-transition: background-color 200ms ease-in-out;
+  -moz-transition: background-color 200ms ease-in-out;
+  -ms-transition: background-color 200ms ease-in-out;
+  -o-transition: background-color 200ms ease-in-out;
+}
+
+.main__media-p {
+  font-size: .8rem;
+}
+
+.main__media:hover {
+  background-color: var(--purple-color);
+}
+
+/* Technologies */
+
+.main__technologies {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.technologie {
+  font-size: .8rem;
+  background-color: var(--purple-dark-color);
+  height: 20px;
+  display: grid;
+  place-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.HTML5 {
+  background-color: #E5532D;
+}
+
+.CSS3{
+  background-color: #0870C2;
+}
+
+.JAVASCRIPT {
+  background-color: #F7E025;
+  color: #000;
+}
+
+.REACT {
+  background-color: #08D8FF;
+  color: #000;
+}
+
+.GIT {
+  background-color: #F05639;
+}
+
+.ILLUSTRATOR {
+  background-color: #FF9D08;
+}
+
+/* MEDIA NAVBAR */
+@media screen and (min-width: 490px) {
+  .navigation__menu {
+    font-size: 1.2rem;
+    display: none;
+  }
+  
+  .navigation__ul {
+    position: inherit;
+    pointer-events: visible;
+    opacity: 1;
+    flex-direction: row;
+    height: 70px;
+    background-color: transparent;
+    justify-content: flex-end;
+    clip-path: circle(140.9% at 0 0);
+  }
+}
+
+
+
+
+
+

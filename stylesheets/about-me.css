@@ -1,0 +1,58 @@
+.aboutme {
+    max-width: 700px;
+    min-width: 100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    margin-bottom: 6rem;
+    overflow: hidden;
+}
+
+.aboutme__container-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.aboutme__icon {
+    font-size: 1.3rem;
+    display: block;
+}
+
+.aboutme__title {
+    font-size: 2rem;
+    display: block;
+}
+
+.aboutme__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.aboutme__texts {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.aboutme__img {
+    width: 100%;
+    max-width: 210px;
+    border: 5px solid var(--purple-dark-color);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.aboutme__p {
+    font-size: .9rem;
+}

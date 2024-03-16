@@ -1,0 +1,82 @@
+.experience {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    margin-bottom: 6rem;
+    overflow: hidden;
+}
+
+.experience__container-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.experience__icon {
+    font-size: 1.3rem;
+    display: block;
+}
+
+.experience__title {
+    font-size: 2rem;
+    display: block;
+}
+
+.experience__container {
+    width: 100%;
+    min-height: 100px;
+}
+
+.experience__ul {
+    width: 100%;
+    list-style: none;
+    position: relative;
+    padding-left: 60px;
+    border-left: 1px solid #ffffff50;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.experience__li:last-child {
+    padding-bottom: 30px;
+}
+
+.experience__container-point {
+    display: flex;
+    align-items: center;
+}
+
+.experience__point {
+    background-color: var(--yellow-color);
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: -8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.experience__job {
+    color: var(--yellow-color);
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.experience__place {
+    margin-bottom: 5px;
+}
+
+.experience__period {
+    opacity: .7;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+
