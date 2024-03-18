@@ -1,16 +1,26 @@
 
 /* TITULOS */
 .animated__element {
+    transform: translateX(50px);
     opacity: 0;
     transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
     -moz-transition: 1s ease-in-out;
     -ms-transition: 1s ease-in-out;
     -o-transition: 1s ease-in-out;
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
 }
 
 .animated__element.animation__element {
+    transform: translateX(0);
     opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
 }
 
 /* PUNTOS */

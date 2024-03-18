@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const observador = new IntersectionObserver(cargarElemento, {
 		root: null,
 		rootMargin: '0px',
-		threshold: .8
+		/* threshold: .8 */
 	});
 
 
