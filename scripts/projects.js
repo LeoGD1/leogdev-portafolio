@@ -4,6 +4,21 @@ let contenedorProyectos = document.querySelector('.projects__container');
 //PROYECTOS - en este apartado de pueden agregar mas objetos
 const proyectos = [
     {
+        nombre: 'Sitio web de invitaciones digitales.',
+        descripcion: 'Este proyecto fue desarrollado para un negocio digital dedicado a la creacion de invitaciones digitales web para cualquier evento, se trata de un emprendimiento iniciado por mi. El sitio web está disponible y es escalable, actualmente continuo implementando diferentes apartados.',
+        github: 'https://github.com/LeoGD1/Condinv-website',
+        enlace: 'https://codinv.netlify.app/',
+        tecnologias: [
+            'HTML5',
+            'CSS3',
+            'Javascript',
+            'React',
+            'Vite',
+            'Illustrator'
+        ], 
+        imagen: '../images/cap_3.jpg'
+    },
+    {
         nombre: 'Portafolio de imprenta.',
         descripcion: 'Este proyecto fué realizado para un negocio dedicado al estampado en diversas superficies con el objetivo de mostrar los productos a los clientes.',
         github: 'https://github.com/LeoGD1/PrintiColorWebPage',
@@ -29,21 +44,6 @@ const proyectos = [
         ], 
         imagen: '../images/cap_2.jpg'
 
-    },
-    {
-        nombre: 'Sitio web de invitaciones digitales.',
-        descripcion: 'Este proyecto fue desarrollado para un negocio digital dedicado a la creacion de invitaciones digitales web para cualquier evento, se trata de un emprendimiento iniciado por mi. El sitio web está disponible y es escalable, actualmente continuo implementando diferentes apartados.',
-        github: 'https://github.com/LeoGD1/Condinv-website',
-        enlace: 'https://codinv.netlify.app/',
-        tecnologias: [
-            'HTML5',
-            'CSS3',
-            'Javascript',
-            'React',
-            'Illustrator',
-            'Vite'
-        ], 
-        imagen: '../images/cap_3.jpg'
     }
 ];
 
