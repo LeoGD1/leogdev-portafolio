@@ -258,6 +258,10 @@ body {
     justify-content: flex-end;
     clip-path: circle(140.9% at 0 0);
   }
+
+  .navigation__li {
+    opacity: 1;
+  }
   
   .navigation__a {
     font-size: 1rem;
