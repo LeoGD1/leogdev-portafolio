@@ -44,6 +44,18 @@ const proyectos = [
         ], 
         imagen: '../images/cap_2.jpg'
 
+    },
+    {
+        nombre: 'Juego del Ahorcado',
+        descripcion: 'Este proyecto fue realizado con el objetivo de poner en prueba los conocimientos y mejorar la logica de programación. Actualmente el proyecto funciona de manera optima y se implementarán mejoras progresivamente.',
+        github: 'https://github.com/LeoGD1/juego-del-ahorcado',
+        enlace: 'https://juego-ahorcado-by-leogd.netlify.app/',
+        tecnologias: [
+            'HTML5',
+            'CSS3',
+            'Javascript'
+        ],
+        imagen: '../images/cap_4.jpg'
     }
 ];
 
