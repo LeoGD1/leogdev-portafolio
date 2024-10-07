@@ -21,7 +21,7 @@ const proyectos = [
     {
         nombre: 'Portafolio de imprenta.',
         descripcion: 'Este proyecto fué realizado para un negocio dedicado al estampado en diversas superficies con el objetivo de mostrar los productos a los clientes.',
-        github: 'https://github.com/LeoGD1/PrintiColorWebPage',
+        github: 'https://github.com/LeoGD1/PrintiColorWeb',
         enlace: 'https://printicolor.netlify.app/',
         tecnologias: [
             'HTML5',
