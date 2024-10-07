@@ -27,7 +27,9 @@ const proyectos = [
             'HTML5',
             'CSS3',
             'Javascript',
-            'Illustrator'
+            'Tailwind',
+            'Astro',
+            'Illustrator',
         ], 
         imagen: '../images/cap_1.jpg'
     },

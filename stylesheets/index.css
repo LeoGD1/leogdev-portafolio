@@ -240,6 +240,11 @@ body {
   color: #000;
 }
 
+.Astro {
+  background-color: #881ABD;
+  color: #fff;
+}
+
 /* MEDIA NAVBAR */
 @media screen and (min-width: 490px) {
   .navigation__menu {
