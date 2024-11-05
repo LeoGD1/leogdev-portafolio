@@ -5,7 +5,7 @@ let contenedorProyectos = document.querySelector('.projects__container');
 const proyectos = [
     {
         nombre: 'Sitio web de invitaciones digitales.',
-        descripcion: 'Este proyecto fue desarrollado para un negocio digital dedicado a la creacion de invitaciones digitales web para cualquier evento, se trata de un emprendimiento iniciado por mi. El sitio web está disponible y es escalable, actualmente continuo implementando diferentes apartados.',
+        descripcion: 'Este proyecto fue desarrollado para un negocio digital dedicado a la creacion de invitaciones digitales web para cualquier evento. El sitio web está disponible y es escalable, actualmente continuo implementando diferentes apartados.',
         github: 'https://github.com/LeoGD1/Condinv-website',
         enlace: 'https://codinv.netlify.app/',
         tecnologias: [
@@ -34,6 +34,21 @@ const proyectos = [
         imagen: '../images/cap_1.jpg'
     },
     {
+      nombre: 'Sitio web para preparatoria',
+      descripcion: 'El sitio web fue desarrollado con la finalidad de brindar informacion de manera digital a aquellas personas que estén interesadas en continuar su formacion académica, ademas de dar a conocer la identidad de dicha Institucion. El proyecto aun se encuentra en desarrollo pero está disponible para visualizarlo.',
+      github: 'https://github.com/LeoGD1/itaht',
+      enlace: 'https://itaht.netlify.app/',
+      tecnologias: [
+          'HTML5',
+          'CSS3',
+          'Javascript',
+          'Astro',
+          'Tailwind',
+          'React'
+      ],
+      imagen: '../images/cap_4.jpg'
+    },
+    {
         nombre: 'Menú Digital web.',
         descripcion: 'El proyecto fue desarrollado específicamente para un negocio local dedicado a la venta de hamburgesas, snacks y bebidas, tiene como objetivo automatizar el proceso de los pedidos a domicilio.',
         github: 'https://github.com/LeoGD1/menu-kiks-house-burguer',
@@ -47,18 +62,6 @@ const proyectos = [
         imagen: '../images/cap_2.jpg'
 
     },
-    {
-        nombre: 'Juego del Ahorcado',
-        descripcion: 'Este proyecto fue realizado con el objetivo de poner en prueba los conocimientos y mejorar la logica de programación. Actualmente el proyecto funciona de manera optima y se implementarán mejoras progresivamente.',
-        github: 'https://github.com/LeoGD1/juego-del-ahorcado',
-        enlace: 'https://juego-ahorcado-by-leogd.netlify.app/',
-        tecnologias: [
-            'HTML5',
-            'CSS3',
-            'Javascript'
-        ],
-        imagen: '../images/cap_4.jpg'
-    }
 ];
 
 //RENDERIZADO DE CADA PROYECTO DEL ARREGLO DE OBJETOS
