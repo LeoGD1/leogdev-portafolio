@@ -34,6 +34,18 @@ const proyectos = [
         imagen: '../images/cap_1.jpg'
     },
     {
+        nombre: 'Sistema de Cine.',
+        descripcion: 'Este proyecto fue realizado con fines prácticos, se trata de un sistema orientado a la compra de entradas para funciones de cine, el sistema consume una API REST (TMDB), permite elegir pelicula disponible, registrar clientes, elegir asientos y mostrar el historial de clientes. Para el almacenamiento se hizo uso de local storage.',
+        github: 'https://github.com/LeoGD1/sistema-cine',
+        enlace: 'https://sistema-cine.netlify.app/',
+        tecnologias: [
+            'HTML5',
+            'CSS3',
+            'Javascript'
+        ], 
+        imagen: '../images/cap_5.jpg'
+    },
+    {
       nombre: 'Sitio web para preparatoria',
       descripcion: 'El sitio web fue desarrollado con la finalidad de brindar informacion de manera digital a aquellas personas que estén interesadas en continuar su formacion académica, ademas de dar a conocer la identidad de dicha Institucion. El proyecto aun se encuentra en desarrollo pero está disponible para visualizarlo.',
       github: 'https://github.com/LeoGD1/itaht',
@@ -60,7 +72,6 @@ const proyectos = [
             'Illustrator'
         ], 
         imagen: '../images/cap_2.jpg'
-
     },
 ];
 
@@ -98,7 +109,6 @@ proyectos.forEach(proyecto  => {
                 </div>
             </article>
     `;
-
     //CADA PROYECTO SE COLOCA UNO DEBAJO DEL OTRO
     contenedorProyectos.insertAdjacentHTML('beforeend', articulo) 
 });
