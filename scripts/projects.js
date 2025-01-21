@@ -34,6 +34,20 @@ const proyectos = [
         imagen: '../images/cap_1.jpg'
     },
     {
+      nombre: 'Blog con contenido informativo de diseño y desarrollo web.',
+      descripcion: 'Articulos informativos que tienen como propósito ayudar a negocios y desarrolladores a alcanzar sus objetivos mediante contenido práctico, informativo e inspirador sobre desarrollo web y la importancia de tener una presencia digital efectiva.',
+      github: 'https://github.com/LeoGD1/codincy',
+      enlace: 'https://codincy.netlify.app/',
+      tecnologias: [
+          'HTML5',
+          'CSS3',
+          'Javascript',
+          'Astro',
+          'Illustrator',
+      ], 
+      imagen: '../images/cap_6.jpg'
+  },
+    {
         nombre: 'Sistema de Cine.',
         descripcion: 'Este proyecto fue realizado con fines prácticos, se trata de un sistema orientado a la compra de entradas para funciones de cine, el sistema consume una API REST (TMDB), permite elegir pelicula disponible, registrar clientes, elegir asientos y mostrar el historial de clientes. Para el almacenamiento se hizo uso de local storage.',
         github: 'https://github.com/LeoGD1/sistema-cine',
